@@ -1,3 +1,74 @@
 {
-  "emp": []
+  "emp": [
+    {
+      "name": "Neha Chatse",
+      "age": "21",
+      "address": "pune",
+      "dep": "delivery",
+      "salary": "5000",
+      "isMarried": true,
+      "pic": "blob:http://localhost:3001/1baaab83-58e9-40aa-9809-1912e7d110af",
+      "id": 1
+    },
+    {
+      "name": "Neha",
+      "age": "25",
+      "address": "aurangabad",
+      "dep": "delivery",
+      "salary": "6000",
+      "isMarried": true,
+      "pic": "blob:http://localhost:3001/1baaab83-58e9-40aa-9809-1912e7d110af",
+      "id": 2
+    },
+    {
+      "name": "nehachatse02",
+      "age": "35",
+      "address": "aurangabad",
+      "dep": "delivery",
+      "salary": "25",
+      "isMarried": false,
+      "pic": "blob:http://localhost:3001/1baaab83-58e9-40aa-9809-1912e7d110af",
+      "id": 3
+    },
+    {
+      "name": "nehachatse02",
+      "age": "35",
+      "address": "aurangabad",
+      "dep": "delivery",
+      "salary": "254",
+      "isMarried": true,
+      "pic": "blob:http://localhost:3001/1baaab83-58e9-40aa-9809-1912e7d110af",
+      "id": 4
+    },
+    {
+      "name": "neha",
+      "age": "42",
+      "address": "pune",
+      "dep": "development",
+      "salary": "9651",
+      "isMarried": true,
+      "pic": "blob:http://localhost:3001/cc5dfdc6-3343-448e-8423-b9322e98a37d",
+      "id": 5
+    },
+    {
+      "name": "Neha Chatse",
+      "age": "36",
+      "address": "pune",
+      "dep": "development",
+      "salary": "9651",
+      "isMarried": true,
+      "pic": "blob:http://localhost:3001/cc5dfdc6-3343-448e-8423-b9322e98a37d",
+      "id": 6
+    },
+    {
+      "name": "Neha Chatse",
+      "age": "36",
+      "address": "pune",
+      "dep": "development",
+      "salary": "78954",
+      "isMarried": true,
+      "pic": "blob:http://localhost:3001/cc5dfdc6-3343-448e-8423-b9322e98a37d",
+      "id": 7
+    }
+  ]
 }

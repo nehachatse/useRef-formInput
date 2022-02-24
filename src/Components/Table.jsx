@@ -12,7 +12,7 @@ export default function Table({data, filterBy, deleteEmp}){
         if ( q == "asc" ) {
             for(let i = 0; i < data.length - 1; i++){
                 for( let j = i + 1; j < data.length; j++){
-                    if(data[i].salary < data[j].salary){
+                    if(Number(data[i].salary) > Number(data[j].salary)){
                         let temp = data[i];
                         data[i] = data[j];
                         data[j] = temp;
@@ -23,7 +23,7 @@ export default function Table({data, filterBy, deleteEmp}){
         else if( q == "dse" ){
             for(let i = 0; i < data.length - 1; i++){
                 for( let j = i + 1; j < data.length; j++){
-                    if(data[i].salary > data[j].salary){
+                    if(Number(data[i].salary) < Number(data[j].salary)){
                         let temp = data[i];
                         data[i] = data[j];
                         data[j] = temp;
@@ -37,7 +37,7 @@ export default function Table({data, filterBy, deleteEmp}){
 
    
     return (
-        <div>
+        <div style={{ height:"250px"}}>
             Filter By: <select name="filter" onChange={(e) => filterTable(e)}>
                 <option value="">Select</option>
                 <option value="delivery">Delivery</option>
@@ -53,7 +53,7 @@ export default function Table({data, filterBy, deleteEmp}){
             </select>
 
 
-        <table border="1">
+        <table border="1" style={{margin:"10px auto" }}>
             <thead>
                 <tr>
                     <th>Sr. No.</th>

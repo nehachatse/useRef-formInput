@@ -22,25 +22,25 @@ export default function Form({onAdd}){
         onAdd(formData);
     }
      return (
-         <div>
+         <div style={{margin: "2rem auto", border: "1px solid black", width: "70%", padding: "1rem", borderRadius: "10px"}}>
              <form>
                  <div>
-                     <label for="name">Name</label>
+                     <label htmlFor="name">Name</label>
                      <input type="text" name="name" placeholder="Enter your Name" value={formData.name} onChange={handleChange} />
                  </div>
 
                  <div>
-                     <label for="age">Age</label>
+                     <label htmlFor="age">Age</label>
                      <input type="number" name="age" placeholder="Enter your Age" value={formData.age} onChange={handleChange} />
                  </div>
 
                  <div>
-                     <label for="address">Address</label>
+                     <label htmlFor="address">Address</label>
                      <input type="text" name="address" placeholder="Enter your current Address" value={formData.address} onChange={handleChange} />
                  </div>
 
                  <div>
-                     <label for="dep">Select Department</label>
+                     <label htmlFor="dep">Select Department</label>
                      <select name="dep" onChange={handleChange}>
                          <option value="">Select</option>
                          <option value="delivery">Delivery</option>
@@ -51,13 +51,13 @@ export default function Form({onAdd}){
                  </div>
 
                  <div>
-                     <label for="salary">Salary</label>
+                     <label htmlFor="salary">Salary</label>
                      <input type="number" name="salary" placeholder="Enter your salary" value={formData.salary} onChange={handleChange} />
                  </div>
 
                  <div>
                      <input type="checkbox" name="isMarried" value={formData.isMarried} onChange={handleChange} />
-                     <label for="isMarried">Married</label>
+                     <label htmlFor="isMarried">Married</label>
                  </div>
 
                  <div>
